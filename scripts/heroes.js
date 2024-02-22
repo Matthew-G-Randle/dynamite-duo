@@ -6,7 +6,7 @@ export const HeroList = () => {
     let heroHTML = "<ul>"
 
     for (const hero of heroes) {
-        heroHTML += `<li>${hero.name}</li>`
+        heroHTML += `<article class="hero"><li>${hero.name}</li></article>`
     }
 
     heroHTML += "</ul>"

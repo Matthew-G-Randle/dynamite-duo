@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    flex-direction:row;
+    /*justify-content: space-evenly; /* Evenly space the child elements */
+    flex-basis: 19%;  /* Make each child element the same width */
+    border: 5px dotted blue;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+} 
+.villain {
+    display: flex;
+    flex-direction:row-reverse;
+    /*justify-content: space-evenly; /* Evenly space the child elements */
+    flex-basis: 19%;  /* Make each child element the same width */
+    border: 5px dotted red;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
